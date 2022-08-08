@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+}
+Link {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+}
+.btn-primary {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.685);
+    border-color: #fff;
+}
+Link.navbar-brand {
+    color: red;
+}
+.hero-container {
+    position: relative;
+    z-index: 100;
+}
+.hero-text {
+ position: relative;
+ z-index: 200;
+}
+.hero-backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.4;
+}
+.card-body {
+    background-color: black;
+    border-top: 2px solid red;
+    /* min-height: 134.8px; */
+}
+.card-body>a {
+    margin-left: auto;
+    justify-content: center;
+    align-content: center;
+    top: 6px;
+}
+a.btn.btn-primary {
+    margin-left: 25%;
+    margin-right: auto;
+    position: relative;
+}
+/* .movie-card {
+    min-height: 586.8px;
+} */
+/* .movie-card>img{
+    min-height: 456px;
+} */
+.txt-sm {
+    font-size:medium;
+}
